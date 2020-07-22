@@ -1,0 +1,93 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666666;
+}
+
+.img1,
+.img2,
+.img3 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  background-attachment: fixed;
+}
+
+.img1 {
+  background-image: url("../img/green-forest-2739664.jpg");
+  min-height: 100%;
+}
+.img2 {
+  background-image: url("../img/waterfalls-scenery-2158030.jpg");
+  min-height: 400px;
+}
+.img3 {
+  background-image: url("../img/david-clode-0lwa8Dprrzs-unsplash.jpg");
+  min-height: 400px;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section-light {
+  background-color: #fff;
+  color: #282e34;
+}
+
+.section-dark {
+  background-color: #f2b705;
+  color: #fff;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.ptext .border {
+  background-color: #365902;
+  color: #fff;
+  padding: 20px;
+  opacity: 1;
+}
+
+footer {
+  background-color: #3279a6;
+  padding: 2px;
+  line-height: 1.5em;
+  display: flex;
+  justify-content: center;
+}
+
+footer h4 {
+  color: #fff;
+  align-content: center;
+}
+
+footer ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+footer ul li a:hover {
+  color: #f2b705;
+}
