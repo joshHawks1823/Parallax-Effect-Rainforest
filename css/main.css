@@ -91,3 +91,40 @@ footer ul li a {
 footer ul li a:hover {
   color: #f2b705;
 }
+
+/* Media Queries */
+@media (max-width: 1140px) {
+  .img1,
+  .img2,
+  .img3 {
+    background-attachment: fixed;
+  }
+  .ptext .border {
+    font-size: 30px;
+    padding: 9px;
+  }
+}
+
+@media (max-width: 768px) {
+  .img1,
+  .img2,
+  .img3 {
+    background-attachment: scroll;
+  }
+  .ptext .border {
+    font-size: 27px;
+    padding: 9px;
+  }
+}
+
+@media (max-width: 568px) {
+  .img1,
+  .img2,
+  .img3 {
+    background-attachment: scroll;
+  }
+  .ptext .border {
+    font-size: 20px;
+    padding: 9px;
+  }
+}
